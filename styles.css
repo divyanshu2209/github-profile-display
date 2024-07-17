@@ -1,0 +1,74 @@
+
+body, h2, input, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+#username-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+#submit {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #005bb5;
+}
+
+#profile-photo {
+    margin-top: 20px;
+}
+
+#profile-photo img {
+    border-radius: 50%;
+    border: 2px solid #0073e6;
+}
+
+
+#followers {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
