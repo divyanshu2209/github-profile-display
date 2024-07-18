@@ -21,7 +21,7 @@ submit.addEventListener('click', function(){
             }
         }
     };
-    input.value = '';
+    input.value = ''; //added this functionality
     xhr.send();
 
 
